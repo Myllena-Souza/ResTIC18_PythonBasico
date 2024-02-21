@@ -12,6 +12,6 @@ def quit(event):
 
 widget = tk.Button(root, text='Hello event world')
 widget.pack()
-widget.bind('<Button-1>', hello)    # bind left mouse clicks 
+widget.bind('<Button-1>', hello)    # bind left mouse clicks #bind liga um evento especifico a uma função especifica
 widget.bind('<Double-1>', quit)     # bind double-left clicks 
 widget.mainloop()
